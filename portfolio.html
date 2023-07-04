@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <title>welcome!</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+</head>
+
+<body data-bs-theme="dark" class="body">
+    <div id="nav-placeholder">
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+    </div>
+    <div class="mt-5">
+        <br>
+        <br>
+        <h2 class="ms-5">Portfolio✨</h2>
+        <hr>
+    </div>
+
+    <div class="container">
+        <h2>Personal Projects</h2>
+        <div class="row p-2">
+            <div class="col glass-box">
+                <h2 class="p-2">Crypto Algorithmic Bot🪙</h2>
+                <h6>This bot specifically trades non-backed currencies like Doge Coin and Shiba Inu Coin.
+                    The program marginally trades these stocks at all times with set intervals.
+                </h6>
+                <p>In the course of this project (~2 months), the program generated <strong>390.9%</strong> profit, from
+                    an inital $95 investment to $370.5 total cashout. </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/grypcoin.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">The process was designed around quick transactions on marginal
+                                    profits. Depending on cycle frequency, different algorithms were applied.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/grypdata.png" class="card-img-top" alt="code" style="height:18.4rem">
+                            <div class="card-body">
+                                <p class="card-text">Sample of report generated per transaction cycle. In this example,
+                                    the delta_price dropped below allowable threshold, which caused the program to sell.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/grypmoney.PNG" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Transaction history. The bot stopped running after 2 months. When
+                                    fees were
+                                    introduced to the trading platform, I cashed out the money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <p>This was a personal project developed based on the crypto frenzy during 2021. I chose python as
+                        it
+                        interprets data easily, has nice native/easy graphics libraries, and worked well with the
+                        trading
+                        platform
+                        API. From this project, I gained extensive experiences working with API's, creating testing
+                        theories, and forming sandbox environments
+                        for emulations.
+                    </p>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>related Technical Skills</h4>
+                            <ul>
+                                <li>Python / R</li>
+                                <li>Layered Algorithms</li>
+                                <li>API Cross-Platform Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>Larger Projects</h2>
+        <div class="row p-2">
+            <div class="col glass-box">
+                <h2 class="p-2">TuffHouse Fire Protection🔥🏡</h2>
+                <h6>Materials Engineering Research Startup
+                </h6>
+                <p>Research and developed fire proof/resistant fiberglass-based materials (patent-pending) to protect
+                    personal / public
+                    properties in fire-prone regions.
+                </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/fireshield.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Aluminum fiberglass. Tested to withstand 600C of sustained heat.
+                                    This is the base model for some other variations that can resist extreme heat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/burn.jpg" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Sample research done to test the fire resistance/reflecive index of
+                                    aluminum-fiberglass,
+                                    silica-fiberglass, and aluminum-silica-fiberglass mesh.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/foam.PNG" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Heat-exposure reaction from samples.
+                                    Include air pockets into the mesh for more even heat distribution would be a good
+                                    experiment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/onfire.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Controlled burn with aluminum-fiberglass wrapped cabin. Study
+                                    done by Professor Takahashi. This fire lasted over 4 minutes making direct contact
+                                    with the structure. <a class="anchor"
+                                        href="https://www.youtube.com/watch?v=dZWYjmXwqlo&ab_channel=TuffHouse">Video
+                                        Here</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/notonfire.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Aftermath of the controlled burn. Stucture sustained 1,200C of
+                                    heat, with
+                                    little burn marks at the corners, but no major damages. The aluminum blanket was not
+                                    damaged.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/steegoingcrazymode.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">We rented a local engineering facility in the names of
+                                    "college students making an impact" for $20 a month, which gained us access to
+                                    expensive equipments to conduct research.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <p>This project initially started off as a fire-prevention solution that works with the local
+                    government,
+                    it evolved into a B2C business due to the elaborate product line-up that were offered.
+                    We as a team of four spent 4 months researching, prototyping, and pivoting, and were successful in
+                    creating
+                    effective models.
+                </p>
+                <p>My role as a co-founder was responsible for doing market research, project management, and sales.
+                    We attended the <a class="anchor" href="https://www.worldagexpo.com/">World Ag Expo</a> (and had the
+                    best ribeye sandwich in my life)
+                    in 2021 to showcase our products, visited and interviewed several fire departments, government
+                    agencies, and natural disaster
+                    relief programs across the State
+                    to build our business models towards consumer needs.</p>
+                <p>
+                    If you are interested in this, check out the website <a class="anchor"
+                        href="https://tuffhouse.us/">here</a>.
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>related Technical Skills</h4>
+                        <ul>
+                            <li>Materials Engineering</li>
+                            <li>Front-End Web Dev</li>
+                            <li>Welding / SolidWorks</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>related Other Skills</h4>
+                        <ul>
+                            <li>Sales - Cold Calling</li>
+                            <li>Product / Development Management</li>
+                            <li>International Trade Logistics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col glass-box">
+                <h2 class="p-2">Stee Delivery🚚</h2>
+                <h6>Third-party products delivery solutions platform </h6>
+                <p>Stee Delivery was created to assist local restaurants with delivery options utilizing existing
+                    delivery options like Doorash and UberEats.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/doordash3.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Reliable API utilization and informative reports to help buisnesses
+                                    adapt to the changing market.
+                                    Each business has shown a considerable level of increase in sales since
+                                    implmentation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/doordash_data.png" class="card-img-top" alt="code"
+                                style="height:17rem;">
+                            <div class="card-body">
+                                <p class="card-text">Informative reports to help restaurants stay on track
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/doordash2.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Stee Delivery generate ~300 orders per unit monthly, gaining
+                                    $15k+ of monthly revenue, and 100% of profits are kept by the businesses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/chinaking.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">Creating business website templates as a free service to gain
+                                    online exposure.
+                                    Each restaurant can choose from a range of templates.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/doordashpromo.png" class="card-img-top" alt="code">
+                            <div class="card-body">
+                                <p class="card-text">A part of the job is negotiating with DoorDash to fulfill promotion
+                                    requirements.
+                                    During Q2, we were able to establish a $5,000 credit towards delivery fees and
+                                    allowed us to lower
+                                    customer spendings.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 20rem;">
+                            <img src="image_assets/doordash4.png" class="card-img-top" alt="code" style="height:17rem;">
+                            <div class="card-body">
+                                <p class="card-text">Elaborate API integration with DoorDash portals allows users /
+                                    store owners to seemlessly
+                                    communicate between the platforms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <p>The idea of Stee Delivery was created over dinner talks, where one of my friend who works in the
+                    restaurant business, brought up the fact that most local businesses don't want to work with big
+                    delivery services like DoorDash because they are unfamiliar with the technology, and oftentimes land
+                    unfavorable contracts.
+                </p>
+                <p>It essentailly works as the stores' delivery manager, where we handle customer transaction, delivery
+                    requests,
+                    and provide delivery instructions, and stores just have to prepare the packages. We also handle
+                    their implementation process as opposed to someone from Doordash, provide commission-free contracts,
+                    and
+                    occasional promotion campaigns to gain restaurant exposures.
+                </p>
+                <p>At this stage of development, the entire process is mostly autonomous, with occasional phone calls
+                    from
+                    stores asking for technical clarifications.
+                </p>
+                <p>Check out the website <a class="anchor" href="https://www.steedelivery.com/">here</a>.</p>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>related Technical Skills</h4>
+                        <ul>
+                            <li>HTML/CSS/Javascript</li>
+                            <li>API creation / utilization</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4>related Other Skills</h4>
+                        <ul>
+                            <li>Customer Support / Consulting</li>
+                            <li>Marketing / Project Management</li>
+                            <li>Accounting Principles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+    </div>
+    <script src="bgtoggle.js"></script>
+
+</html>
